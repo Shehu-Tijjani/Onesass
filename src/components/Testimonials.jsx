@@ -73,7 +73,7 @@ function Testimonials() {
         className="container px-8 py-15 m-auto max-w-300 max-h-min flex flex-col justify-center items- text-white 
       "
       >
-        <SectionHeaders topHeader={"What our users say"} marginB={`15`} />
+        <SectionHeaders topHeader={"What our users say"} marginB={15} />
 
         <div className="flex flex-col md:flex-row gap-4 leading-5 ">
           <TestimonialsCards testimonialList={testimonialList} />
