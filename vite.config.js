@@ -8,10 +8,11 @@ import path from "path";
 export default defineConfig({
   plugins: [react(), tailwind(), svgr()],
 
+  base: "/Onesass/",
+
   resolve: {
     alias: {
       "@": path.resolve("./src"),
     },
-    path: "/Onesass/",
   },
 });
