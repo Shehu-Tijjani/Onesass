@@ -1,0 +1,76 @@
+@import "tailwindcss";
+
+@theme {
+  --background-image-header-line: linear-gradient(
+    90deg,
+    rgb(254, 236, 255) 0%,
+    rgb(254, 202, 255) 13.0156%,
+    rgb(254, 181, 255) 27.3948%,
+    rgb(255, 219, 231) 42.2667%,
+    rgb(255, 244, 214) 55.8559%,
+    rgb(243, 252, 215) 67.5676%,
+    rgb(210, 245, 238) 79.2793%,
+    rgb(195, 239, 255) 88.2232%,
+    rgb(251, 239, 255) 100%
+  );
+
+  --background-image-hero-gradient: linear-gradient(
+    180deg,
+    #000000 0%,
+    rgb(32, 13, 66) 42.394355292792795%,
+    rgb(79, 33, 161) 70.38921734234235%,
+    rgb(164, 110, 219) 95%
+  );
+  /* 
+  --background-image-hero-gradient: linear-gradient(
+    180deg,
+    #000000 0%,
+    rgb(32, 13, 66) 40.394355292792795%,
+    rgb(79, 33, 161) 75.38921734234235%,
+    rgb(164, 110, 219) 110%
+  ); */
+
+  --background-image-hero-clip-gradient: linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 0) 0%,
+    rgb(255, 255, 255) 30%
+  );
+
+  --background-image-clip-gradient: linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 0.3) 0%,
+    rgb(255, 255, 255) 85%
+  );
+
+  /* --background-image-proctplan-gradient: linear-gradient(
+    180deg,
+    #000000 0%,
+    rgb(32, 13, 66) 14.394355292792795%,
+    rgb(79, 33, 161) 28.38921734234235%,
+    rgb(164, 100, 219) 42%,
+    rgb(79, 33, 161) 56.38921734234235%,
+    rgb(32, 13, 66) 70.394355292792795%,
+    #000000 100%
+  ); */
+
+  --background-image-proctplan-gradient: linear-gradient(
+    180deg,
+    #000000 0%,
+    rgb(79, 39, 140) 50.06728603603604%,
+    rgb(0, 0, 0) 95%
+  );
+
+  --background-image-features-gradient: linear-gradient(
+    180deg,
+    #000000 0%,
+    rgba(79, 39, 140, 0.5) 100%
+  );
+
+  --background-image-testimonials-gradient: linear-gradient(
+    0deg,
+    #000000 30.02005912162162%,
+    rgba(79, 39, 140, 0.5) 84.88393862612614%
+  );
+
+  --font-dm-sans: "DM Sans", "DM Sans Placeholder", sans-serif;
+}
