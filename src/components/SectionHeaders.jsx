@@ -1,12 +1,12 @@
 import useReveal from "@/hooks/useReveal";
 
-function SectionHeaders({ topHeader, bottomHeader, desc, marginB = 4 }) {
+function SectionHeaders({ topHeader, bottomHeader, desc, marginB = 16 }) {
   const { ref, isVisible } = useReveal();
 
   return (
     <div ref={ref}>
       <h2
-        className={`text-[clamp(20px,7.5vw,60px)] font-bold mb-${marginB} bg-clip-text text-transparent bg-clip-gradient text-center transition-all duration-800 ${isVisible ? "translate-y-0 opacity-100" : "translate-y-6 opacity-0"}`}
+        className={`text-[clamp(20px,7.5vw,60px)] font-bold mb-[${marginB}px] bg-clip-text text-transparent bg-clip-gradient text-center transition-all duration-800 ${isVisible ? "translate-y-0 opacity-100" : "translate-y-6 opacity-0"}`}
       >
         {topHeader}
         {bottomHeader && (
