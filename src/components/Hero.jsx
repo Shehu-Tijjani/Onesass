@@ -16,7 +16,7 @@ function Hero() {
     >
       <div
         className="p-8  max-w-300 max-h-min flex flex-col items-center text-center text-white relative
-       mt-60 sm:mt-20 sm:pt-40
+       mt-50 sm:mt-20 sm:pt-40
 
         has-[h1:hover,p:hover,a:hover,small:hover]:[&_.img-1]:left-0
         has-[h1:hover,p:hover,a:hover,small:hover]:[&_.img-1]:sm:left-[-6.5vw]
