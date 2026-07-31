@@ -66,7 +66,7 @@ function Hero() {
         </a>
 
         <h1
-          className={`text-[clamp(40px,14vw,135px)] font-bold tracking-tighter mb-4 bg-clip-text text-transparent bg-hero-clip-gradient transition-all duration-800 ${isVisible ? "translate-y-0 opacity-100" : "translate-y-6 opacity-0"}`}
+          className={`text-[clamp(40px,16vw,135px)] font-bold tracking-tighter mb-4 bg-clip-text text-transparent bg-hero-clip-gradient transition-all duration-800 ${isVisible ? "translate-y-0 opacity-100" : "translate-y-6 opacity-0"}`}
         >
           <span>Pathway to</span>
           <br />
