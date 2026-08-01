@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import useReveal from "../hooks/useReveal";
 import arrayDivider from "../data/ArrayDivider";
 import userImages from "../api/userImages";
-import testimonialList from "../data/testimonials";
+import TestimonialList from "../data/testimonials";
 
 function TestimonialsCard({ list, i }) {
   const { ref, isVisible } = useReveal();
