@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import useReveal from "../hooks/useReveal";
-import arrayDivider from "../data/ArrayDivider";
+import arrayDivider from "../data/arrayDivider";
 import userImages from "../api/userImages";
 import testimonialList from "../data/testimonials";
 
