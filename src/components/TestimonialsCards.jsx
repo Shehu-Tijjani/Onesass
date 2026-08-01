@@ -13,7 +13,7 @@ function TestimonialsCard({ list, i }) {
         max-h-max transition-all duration-800 ${isVisible ? "translate-y-0 opacity-100" : "translate-y-6 opacity-0"}`}
     >
       <div className="user flex items-center gap-4 mb-6">
-        <img src="" alt="" className="h-13 w-13 rounded-full bg-black" />
+        <img src="" alt="" className="h-13 w-13 rounded-full bg-white" />
         <div className="">
           <h3 className="font-medium text-lg">{name}</h3>
           <small>{username}</small>
